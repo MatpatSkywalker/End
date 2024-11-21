@@ -542,6 +542,11 @@ footer{
     }
 }
 
+@media (max-width: 370px){
+    .contact-form{
+        width: 150px};
+}
+
 @media (max-width: 650px){
     .grindeo{
         display: grid;
