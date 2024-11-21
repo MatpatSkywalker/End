@@ -538,8 +538,8 @@ footer{
         grid-auto-rows: auto;
     }
     .contact-form{
-        width: 185px;
-        height: 422px;
+        width: 140px;
+        height: 440px;
     }
 }
 
@@ -555,6 +555,10 @@ footer{
         h3{
             font-size: 15px;
         }
+    }
+    .contact-form{
+        width: 140px;
+        height: 440px;
     }
     .catchy{
         display: grid;
@@ -599,6 +603,59 @@ footer{
         width: 150px};
 }
 
+@media (max-width: 357px){
+    .contact-form{
+        width: 125px;
+    }
+    .contacto{
+        padding-left: 10px;
+        h2{
+            font-size: 10px;
+        }
+        h3{
+            font-size: 10px;
+        }
+        img{
+            width: 70px;
+            height: 70px;
+        }
+    }
+    .catchy{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        h2{
+            font-size: 10px;
+        }
+        h3{
+            font-size: 10px;
+        }
+    }
+    .news{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        h2{
+            font-size: 10px;
+        }
+        h3{
+            font-size: 10px;
+        }
+    }
+    .call{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        h2{
+            padding-bottom: 0px;
+            font-size: 10px;
+        }
+        h3{
+            font-size: 10px;
+        }
+    }    
+}
+
 @media (max-width: 650px){
     .grindeo{
         display: grid;
@@ -609,6 +666,19 @@ footer{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-auto-rows: auto;
+    }
+    .contacto{
+        padding-left: 20px;
+        h2{
+            font-size: 20px;
+        }
+        h3{
+            font-size: 20px;
+        }
+        img{
+            width: 180px;
+            height: 180px;
+        }
     }
 }
 
