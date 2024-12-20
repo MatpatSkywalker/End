@@ -3,9 +3,9 @@ const bot = "30"
 let respuestaBot = prompt ("Demuestra que no eres un robot. Cuanto es 20 + 30 - 10*2")
 
 while (respuestaBot != bot){
-    respuesta = prompt ("Respuesta incorrecta, reinicia la pagina")
+    respuesta = alert ("Respuesta incorrecta, reinicia la pagina")
 } 
-if (respuestaBot = bot){
+if (respuestaBot == bot){
     console.log ("Felicidades, no eres un robot!")
 }
 
@@ -28,7 +28,7 @@ if(edad >= 6 && edad <= 18  && lugar == "3" && idioma == "ingles"){
     console.log("Te va a encantar Argentina!")
 } else if (edad >= 25 && edad <= 50 && lugar == "2" && idioma == "italiano"){
     console.log ("Te va a encantar Italia!")
-}else if (edad >= 20 && edad <= 25 && lugar == "4"){
+}else if (edad >= 20 && edad <= 25 && lugar == "4" && idioma == "italiano"){
     console.log ("Te va a encantar España!")
 }else if (edad >= 30 && lugar == "2" && idioma == "ingles"){
     console.log ("Te va a encantar Egipto!")
